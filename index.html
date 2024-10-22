@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Bootstrap</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav
+        class="navbar navbar-expand-xl navbar-dark"
+        aria-label="Sixth navbar example"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><h1><i class="bi bi-camera"></i> PhotoFolio</h1></a
+          >
+          <button
+            class="navbar-toggler order-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarsExample06"
+            aria-controls="navbarsExample06"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse order-3 order-xl-2"
+            id="navbarsExample06"
+          >
+            <ul class="navbar-nav m-auto mb-2 mb-xl-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Gallery</a
+                >
+
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div
+            style="margin-left: auto"
+            class="text-light d-flex justify-content-center align-items-center gap-3 order-2 order-xl-3"
+          >
+            <i class="bi bi-twitter-x"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div id="center" class="container py-5">
+      <div class="row justify-content-center text-center">
+        <div class="col-12 col-md-8 col-lg-6">
+          <h2>
+            <span>I'm</span>
+            <span class="border-green-half"> Jenny Wilson</span>
+            a Professional Photographer from New York City
+          </h2>
+          <p class="mt-3">
+            Blanditiis praesentium aliquam illum tempore incidunt debitis
+            dolorem magni est deserunt sed qui libero. Qui voluptas amet.
+          </p>
+          <a id="available-a" type="button" class="btn btn-lg mt-4">
+            AVAILABLE FOR HIRE
+          </a>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="container-fluid">
+        <div class="row gy-5 d-flex justify-content-center">
+          <div
+            id="transform-image"
+            class="col-12 col-sm-6 col-md-4 col-lg-3 position-relative"
+          >
+            <img
+              class="rounded-3"
+              src="./assets/images/gallery-1.jpg"
+              alt="Gallery Image"
+            />
+            <div
+              class="image-overlay d-flex justify-content-center align-items-center gap-3"
+            >
+              <i
+                class="fa-solid fa-up-right-and-down-left-from-center fs-2"
+              ></i>
+              <i class="bi bi-link-45deg fs-2"></i>
+            </div>
+          </div>
+
+          <div
+            id="transform-image"
+            class="col-12 col-sm-6 col-md-4 col-lg-3 position-relative"
+          >
+            <img
+              class="rounded-3"
+              src="./assets/images/gallery-2.jpg"
+              alt="Gallery Image"
+            />
+            <div
+              class="image-overlay d-flex justify-content-center align-items-center gap-3"
+            >
+              <i
+                class="fa-solid fa-up-right-and-down-left-from-center fs-2"
+              ></i>
+              <i class="bi bi-link-45deg fs-2"></i>
+            </div>
+          </div>
+          <div
+            id="transform-image"
+            class="col-12 col-sm-6 col-md-4 col-lg-3 position-relative"
+          >
+            <img
+              class="rounded-3"
+              src="./assets/images/gallery-3.jpg"
+              alt="Gallery Image"
+            />
+            <div
+              class="image-overlay d-flex justify-content-center align-items-center gap-3"
+            >
+              <i
+                class="fa-solid fa-up-right-and-down-left-from-center fs-2"
+              ></i>
+              <i class="bi bi-link-45deg fs-2"></i>
+            </div>
+          </div>
+          <div
+            id="transform-image"
+            class="col-12 col-sm-6 col-md-4 col-lg-3 position-relative"
+          >
+            <img
+              class="rounded-3"
+              src="./assets/images/gallery-4.jpg"
+              alt="Gallery Image"
+            />
+            <div
+              class="image-overlay d-flex justify-content-center align-items-center gap-3"
+            >
+              <i
+                class="fa-solid fa-up-right-and-down-left-from-center fs-2"
+              ></i>
+              <i class="bi bi-link-45deg fs-2"></i>
+            </div>
+          </div>
+          <div
+            id="transform-image"
+            class="col-12 col-sm-6 col-md-4 col-lg-3 position-relative"
+          >
+            <img
+              class="rounded-3"
+              src="./assets/images/gallery-5.jpg"
+              alt="Gallery Image"
+            />
+            <div
+              class="image-overlay d-flex justify-content-center align-items-center gap-3"
+            >
+              <i
+                class="fa-solid fa-up-right-and-down-left-from-center fs-2"
+              ></i>
+              <i class="bi bi-link-45deg fs-2"></i>
+            </div>
+          </div>
+          <div
+            id="transform-image"
+            class="col-12 col-sm-6 col-md-4 col-lg-3 position-relative"
+          >
+            <img
+              class="rounded-3"
+              src="./assets/images/gallery-6.jpg"
+              alt="Gallery Image"
+            />
+            <div
+              class="image-overlay d-flex justify-content-center align-items-center gap-3"
+            >
+              <i
+                class="fa-solid fa-up-right-and-down-left-from-center fs-2"
+              ></i>
+              <i class="bi bi-link-45deg fs-2"></i>
+            </div>
+          </div>
+          <div
+            id="transform-image"
+            class="col-12 col-sm-6 col-md-4 col-lg-3 position-relative"
+          >
+            <img
+              class="rounded-3"
+              src="./assets/images/gallery-7.jpg"
+              alt="Gallery Image"
+            />
+            <div
+              class="image-overlay d-flex justify-content-center align-items-center gap-3"
+            >
+              <i
+                class="fa-solid fa-up-right-and-down-left-from-center fs-2"
+              ></i>
+              <i class="bi bi-link-45deg fs-2"></i>
+            </div>
+          </div>
+          <div
+            id="transform-image"
+            class="col-12 col-sm-6 col-md-4 col-lg-3 position-relative"
+          >
+            <img
+              class="rounded-3"
+              src="./assets/images/gallery-8.jpg"
+              alt="Gallery Image"
+            />
+            <div
+              class="image-overlay d-flex justify-content-center align-items-center gap-3"
+            >
+              <i
+                class="fa-solid fa-up-right-and-down-left-from-center fs-2"
+              ></i>
+              <i class="bi bi-link-45deg fs-2"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div id="center" class="container py-5">
+        <div id="footer-last" class="d-flex flex-column">
+          <p style="color: white">© Copyright PhotoFolio All Rights Reserved</p>
+          <div class="footer-icon">
+            <div class="footer-twitter"><i class="bi bi-twitter-x"></i></div>
+            <div class="footer-twitter"><i class="bi bi-facebook"></i></div>
+            <div class="footer-twitter"><i class="bi bi-instagram"></i></div>
+            <div class="footer-twitter"><i class="bi bi-linkedin"></i></div>
+          </div>
+          <p style="color: white" class="mt-3">
+            Designed by
+            <a style="color: #27a776" id="footer-a" href="">BootstrapMade</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
